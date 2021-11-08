@@ -1,0 +1,86 @@
+<OpenDRIVE>
+    <header name="open_drive_map" revMajor="1" revMinor="5" date="2021-11-03 16:03:13.782842" north="0.0" south="0.0" east="0.0" west="0.0" />
+    <road name="0" rule="RTH" id="0" junction="-1" length="190.27862184522922">
+        <link />
+        <planView>
+            <geometry s="0" x="-23.222986221313477" y="-7.111824989318848" hdg="0.00234741517551742" length="43.07555431938482">
+                <line />
+            </geometry>
+            <geometry s="43.07555431938482" x="19.85244941726303" y="-7.010708872280093" hdg="0.00234741517551742" length="46.10988848369012">
+                <arc curvature="-0.026674899134012484" />
+            </geometry>
+            <geometry s="89.18544280307495" x="55.24306718592965" y="-31.885255238876933" hdg="-1.2276292092074803" length="55.86661456794825">
+                <arc curvature="0.05402003866226629" />
+            </geometry>
+            <geometry s="145.05205737102318" x="90.7428958497642" y="-21.626020967592904" hdg="1.7902874696830133" length="45.22656447420604">
+                <arc curvature="-0.02693264021932947" />
+            </geometry>
+        </planView>
+        <elevationProfile />
+        <lateralProfile />
+        <lanes>
+            <laneSection s="0">
+                <left>
+                    <lane id="1" type="driving" level="false">
+                        <link />
+                        <roadMark sOffset="0" type="solid" weight="standard" color="standard" height="0.02" width="0.2" />
+                        <width a="2.9999968388071467" b="-3.795189291129551e-08" c="3.807215886828978e-09" d="-2.012259574638472e-11" sOffset="0" />
+                    </lane>
+                </left>
+                <center>
+                    <lane id="0" type="none" level="false">
+                        <roadMark sOffset="0" type="solid" weight="standard" color="standard" height="0.02" width="0.2" />
+                    </lane>
+                </center>
+                <right>
+                    <lane id="-1" type="driving" level="false">
+                        <link />
+                        <roadMark sOffset="0" type="solid" weight="standard" color="standard" height="0.02" width="0.2" />
+                        <width a="2.9999966440669343" b="4.829842707084564e-07" c="-6.1019391731373024e-09" d="2.2984980002624967e-11" sOffset="0" />
+                    </lane>
+                </right>
+            </laneSection>
+        </lanes>
+    </road>
+    <road name="1" rule="RTH" id="1" junction="-1" length="57.660695647305374">
+        <link />
+        <planView>
+            <geometry s="0" x="-26.441722869873047" y="-38.06507110595703" hdg="-0.0030302872124681394" length="57.660695647305374">
+                <line />
+            </geometry>
+        </planView>
+        <elevationProfile />
+        <lateralProfile />
+        <lanes>
+            <laneSection s="0">
+                <left>
+                    <lane id="1" type="driving" level="false">
+                        <link />
+                        <roadMark sOffset="0" type="solid" weight="standard" color="standard" height="0.02" width="0.2" />
+                        <width a="5.178456981719629" b="0.06424883330089187" c="-0.009663217001930182" d="0.0003818087876316769" sOffset="0" />
+                        <width a="6.1943470541039245" b="0.27157639765210495" c="0.02744546462869503" d="0.0008105595949566052" sOffset="22.486507666064472" />
+                        <width a="16.155960518169774" b="0.7633972709701773" c="-0.0588694857726485" d="0.00012797954141937143" sOffset="35.57564475108738" />
+                        <width a="16.56156293005591" b="-1.229473573479866" c="-0.03777519922112026" d="0.006003962364843104" sOffset="48.55704666801144" />
+                    </lane>
+                </left>
+                <center>
+                    <lane id="0" type="none" level="false">
+                        <roadMark sOffset="0" type="solid" weight="standard" color="standard" height="0.02" width="0.2" />
+                    </lane>
+                </center>
+                <right>
+                    <lane id="-1" type="driving" level="false">
+                        <link />
+                        <roadMark sOffset="0" type="solid" weight="standard" color="standard" height="0.02" width="0.2" />
+                        <width a="2.9999985224127967" b="-1.5451033186288421e-09" c="5.6799327959520424e-11" d="-5.447754979565865e-13" sOffset="0" />
+                    </lane>
+                    <lane id="-2" type="driving" level="false">
+                        <link />
+                        <roadMark sOffset="0" type="solid" weight="standard" color="standard" height="0.02" width="0.2" />
+                        <width a="2.999998534268798" b="-3.4941536330860055e-09" c="1.4571737422639573e-10" d="-1.6135933634480983e-12" sOffset="0" />
+                    </lane>
+                </right>
+            </laneSection>
+        </lanes>
+    </road>
+</OpenDRIVE>

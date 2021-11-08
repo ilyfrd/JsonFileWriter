@@ -1,0 +1,83 @@
+<OpenDRIVE>
+   <header west="784439.9999674772" date="&#21608;&#19968; 7&#26376; 17:33:21 2021" south="3352422.0000100457" east="784560.0000325228" north="3353177.9999899543" revMajor="1" name="Untitled" version="1" revMinor="2">
+      <geoReference> +proj=utm +zone=50 +datum=WGS84 +ellps=WGS84 +towgs84=0,0,0</geoReference>
+   </header>
+   <road junction="-1" name="road 1" length="221.9058" id="1">
+      <planView>
+         <geometry hdg="0.00001" x="784277.9652" y="3352816.3883" s="0" length="221.9058">
+            <line />
+         </geometry>
+      </planView>
+      <signals>
+         <signal country="China" dynamic="yes" hOffset="0.00e+0" height="1.1595988571643829e+0" id="tl1" name="Signal_3Light_Post03" orientation="+" pitch="0.0000000000000000e+0" roll="0.0000000000000000e+0" subtype="-1" text="" type="1000001" value="-1.0000000000000000e+0" width="5.2492320205637566e-1">
+             <positionRoad roadId="1" s="123.608101721419826e+0" subtype="-1" t="-6.090269025612917" zOffset="6.0" />
+             <reference elementType="object" elementId="301" type="pole_light" />
+             <reference elementType="object" elementId="201" type="stopline_light" />
+             <validity fromLane="-2" toLane="-2" />
+         </signal>
+         <signal country="China" dynamic="yes" hOffset="0.00e+0" height="1.1595988571643829e+0" id="tl2" name="Signal_3Light_Post02" orientation="-" pitch="0.0000000000000000e+0" roll="0.0000000000000000e+0" subtype="-1" text="" type="1000001" value="-1.0000000000000000e+0" width="5.2492320205637566e-1">
+             <positionRoad roadId="1" s="117.5e+0" t="6.090269025612917" zOffset="6.0" />
+             <reference elementType="object" elementId="302" type="pole_light" />
+             <reference elementType="object" elementId="202" type="stopline_light" />
+             <validity fromLane="-1" toLane="-1" />
+         </signal>
+     </signals>
+      <objects>
+         <object hdg="-1.5707963e+0" id="201" length="7.50e+0" name="StopLine" orientation="+" pitch="0.0000000000000000e+0" roll="0.0000000000000000e+0" s="117.7542584807099360e+0" t="-3.75" type="stopline" width="0.0000000000000000e+0" zOffset="5.7220458984375000e-6">
+             <outline>
+                 <cornerLocal u="-3.735153298460145e+0" v="0.0e-7" z="0.0000000000000000e+0" />
+                 <cornerLocal u="3.7639165449814e+0" v="0.0e-7" z="0.0000000000000000e+0" />
+             </outline>
+         </object>
+         <object hdg="-1.5707963e+0" id="202" length="7.50e+0" name="StopLine" orientation="-" pitch="0.0000000000000000e+0" roll="0.0000000000000000e+0" s="123.7542584807099360e+0" t="3.75" type="stopline" width="0.0000000000000000e+0" zOffset="5.7220458984375000e-6">
+            <outline>
+                <cornerLocal u="-3.735153298460145e+0" v="0.0e-7" z="0.0000000000000000e+0" />
+                <cornerLocal u="3.7639165449814e+0" v="0.0e-7" z="0.0000000000000000e+0" />
+            </outline>
+        </object>
+        <object hdg="1.5707963e+0" height="6.00" id="301" length="5.5881840822847906e-1" name="Signal_Pole_1" orientation="+" pitch="0.0000000000000000e+0" roll="0.0000000000000000e+0" s="1.2360e+2" t="-7.8367978166173771e+0" type="pole" width="5.5881871340423372e-1" zOffset="-4.8583259582519567e-1" />
+        <object hdg="1.5707963e+0" height="6.00" id="302" length="5.5881840822847906e-1" name="Signal_Pole_2" orientation="-" pitch="0.0000000000000000e+0" roll="0.0000000000000000e+0" s="1.1750e+2" t="7.8367978166173771e+0" type="pole" width="5.5881871340423372e-1" zOffset="-4.8583259582519567e-1" />
+     </objects>
+      <elevationProfile>
+         <elevation a="0" d="0" s="0" b="0" c="0" />
+      </elevationProfile>
+      <lateralProfile>
+         <superelevation a="0" d="0" s="0" b="0" c="0" />
+         <crossfall a="0" d="0" side="both" s="0" b="0" c="0" />
+      </lateralProfile>
+      <lanes>
+         <laneSection s="0" singleSide="false">
+            <right>
+               <lane level="0" id="-2" type="driving">
+                  <width sOffset="0" a="4.2" d="0" b="0" c="0" />
+                  <roadMark sOffset="0" color="standard" height="0" laneChange="both" width="0.12" material="standard" weight="standard" type="solid" />
+               </lane>
+               <lane level="0" id="-1" type="driving">
+                  <width sOffset="0" a="3.43" d="0" b="0" c="0" />
+                  <roadMark sOffset="0" color="standard" height="0" laneChange="both" width="0.12" material="none" weight="standard" type="broken" />
+               </lane>
+            </right>
+            <center>
+               <lane level="0" id="0" type="border">
+                  <roadMark sOffset="0" color="standard" height="0" laneChange="both" width="0.12" material="none" weight="standard" type="solid solid" />
+               </lane>
+            </center>
+            <left>
+               <lane level="0" id="1" type="driving">
+                  <width sOffset="0" a="3.43" d="0" b="0" c="0" />
+                  <roadMark sOffset="0" color="standard" height="0" laneChange="both" width="0.12" material="none" weight="standard" type="broken" />
+               </lane>
+               <lane level="0" id="2" type="driving">
+                  <link>
+                     <predecessor id="1" />
+                     <successor id="1" />
+                  </link>
+                  <width sOffset="0" a="4.0" d="0" b="0" c="0" />
+                  <roadMark sOffset="0" color="standard" height="0" laneChange="both" width="0.12" material="standard" weight="standard" type="solid" />
+               </lane>
+            </left>
+         </laneSection>
+      </lanes>
+      <type s="0" type="motorway" />
+   </road>
+</OpenDRIVE>

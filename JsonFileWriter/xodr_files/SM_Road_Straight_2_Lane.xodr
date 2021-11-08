@@ -1,0 +1,53 @@
+<OpenDRIVE>
+    <header date="2020-09-10T09:38:31" east="784300.0" name="SM_RoadWithParkingLane" north="3353000.0" revMajor="1" revMinor="4" south="3352300.0" vendor="ZJLab" version="1.0" west="785000.0">
+        <geoReference> +proj=utm +datum=WGS84 +zone=50R +units=m  +no_defs </geoReference>
+    </header>
+	<road id="1" junction="-1" length="143.671016861373" name="Road 1">
+	<link />
+	<type s="0.0000000000000000e+0" type="town">
+        <speed max="40" unit="km/h" />
+    </type>   
+	<planView>
+		<geometry s="0" x="784500.0279" y="3352815.6904" z="0.0" hdg="3.141770165785801" length="143.6521">
+			<line />
+		</geometry>
+	</planView>
+	<elevationProfile>
+            <elevation a="0.0000000000000000e+0" b="0.0000000000000000e+0" c="0.0000000000000000e+0" d="0.0000000000000000e+0" s="0.0000000000000000e+0" />
+    </elevationProfile>
+    <lateralProfile>
+        <superelevation a="0.0000000000000000e+0" b="0.0000000000000000e+0" c="0.0000000000000000e+0" d="0.0000000000000000e+0" s="0.0000000000000000e+0" />
+    </lateralProfile>
+    <lanes>
+    	<laneOffset a="0.0000000000000000e+0" b="0.0000000000000000e+0" c="0.0000000000000000e+0" d="0.0000000000000000e+0" s="0.0000000000000000e+0" />
+        <laneSection s="0.0000000000000000e+0">
+	        <left>
+				<lane id="1" level="false" type="driving">
+	                <width a="3.4500e+0" b="0.0" c="0.0" d="0.0" sOffset="0.0000000000000000e+0" />
+	                <roadMark color="white" laneChange="none" material="standard" sOffset="0.0000000000000000e+0" type="broken" width="1.2500000000000000e-1" />
+	            </lane>
+	            <lane id="2" level="false" type="driving">
+	                <width a="3.4508e+0" b="0.0" c="0.0" d="0.0" sOffset="0.0000000000000000e+0" />
+	                <roadMark color="white" laneChange="none" material="standard" sOffset="0.0000000000000000e+0" type="solid" width="1.2500000000000000e-1" />
+	            </lane>
+			</left>
+			<center>
+				<lane id="0" level="false" type="none">
+	                <roadMark color="yellow" laneChange="none" material="standard" sOffset="0.0000000000000000e+0" type="soulid solid" width="1.2500000000000000e-1" />
+	            </lane>
+			</center>
+			<right>
+	            <lane id="-1" level="false" type="driving">
+	                <width a="3.4358e+0" b="0.0" c="0.0" d="0.0" sOffset="0.0000000000000000e+0" />
+	                <roadMark color="white" laneChange="none" material="standard" sOffset="0.0000000000000000e+0" type="broken" width="1.2500000000000000e-1" />
+	            </lane>
+	            <lane id="-2" level="false" type="driving">
+	                <width a="3.4500e+0" b="0.0" c="0.0" d="0.0" sOffset="0.0000000000000000e+0" />
+	                <roadMark color="white" laneChange="none" material="standard" sOffset="0.0000000000000000e+0" type="solid" width="1.2500000000000000e-1" />
+	            </lane>
+	        </right>	
+    	</laneSection>
+    	
+    </lanes>
+</road>
+</OpenDRIVE>
