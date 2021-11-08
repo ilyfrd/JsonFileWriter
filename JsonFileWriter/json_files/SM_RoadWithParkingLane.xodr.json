@@ -1,0 +1,10 @@
+{
+   "offset" : {
+      "x" : 784500.0,
+      "y" : 3352800.0,
+      "z" : 0.0
+   },
+   "roadLine" : [],
+   "trafficLight" : null,
+   "trafficLightPole" : null
+}
